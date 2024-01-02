@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Learning Tailwind</title>
+</head>
+<body>
+  
+<header>
+  <nav>
+    <div class="container m-auto flex justify-between px-8 py-3 items-center">
+      <h1 class="text-2xl font-semibold"><span><i class="fa-solid fa-signature"></i></span>kader</h1>
+      <div>
+        <ul class="flex space-x-4">
+          <li><a href="" class="text-base">Home</a></li>
+          <li><a href="" class="text-base">About</a></li>
+          <li><a href="" class="text-base">Blogs</a></li>
+          <li><a href="" class="bg-black p-2 px-4 text-white rounded-md">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="container mx-auto flex justify-around flex-col items-center px-8 lg:flex-row py-5">
+    <div class="mt-10 lg:w-1/2">
+      <h1 class=" text-3xl text-center font-bold text-dark-soft md:text-5xl lg:text-left lg:max-w-[540px]">Read the most interesting articles</h1>
+      <p class="text-gray-700 mt-4 text-center lg:text-left md:text-xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magne aliqua</p>
+      <div class="space-x-4 mt-6 md:ml-64 lg:ml-0 sm:ml-[11rem]">
+        <button class="bg-black text-white p-2 rounded">Learn More</button><button class="hover:bg-black hover:text-white p-2 rounded bg-transparent text-black border border-black px-4">Connect</button>
+      </div>
+    </div>
+    <div class="sm:mt-8 lg:mt-0">
+      <img  width="520" src="images/undraw_Connecting_Teams_re_hno7.png" alt="">
+    </div>
+  </section>
+  <!-- bothside pictures -->
+  <section>
+    <div class="container flex justify-center items-center my-6 sm:flex-col lg:flex-row">
+      <div class="w-1/2">
+        <h1 class="text-7xl font-extrabold">
+          <span>Your day</span> <br> <span>at the</span> <br> <span>gallery</span></h1>
+        <p class="w-1/2 sm:w-11/12 lg:w-1/2 text-xl font-extralight text-gray-400 mt-6">Wander through our distinct collections and find new insights about our artists.Dive into the details of their creative process.</p>
+      </div>
+      <div class="sm:mt-7">
+        <img width="520" src="images/undraw_Newspaper_re_syf5.png" alt="">
+      </div>
+    </div>
+  </section>
+</header>
+
+<section class="my-20">
+  <h1 class="text-center font-bold text-3xl capitalize">Our Team Member</h1>
+  <div class="container mt-10 flex justify-center items-center gap-6 flex-wrap">
+    <div class="shadow-sm  shadow-slate-400 rounded w-80 p-6">
+      <figure><img class="rounded-md" src="https://img.freepik.com/free-photo/portrait-indian-man-coat-typing-message-phone-city-street_231208-2768.jpg" alt=""></figure>
+      <div class="mt-4">
+        <h1 class="font-semibold mb-2">Rahul Khanna</h1>
+        <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo maiores minima accusamus dolore totam inventore optio possimus hic tenetur.</p>
+      </div>
+    </div>
+    <div class="shadow-sm shadow-slate-400 rounded w-80 p-6">
+      <figure><img class="rounded-md" src="https://images.unsplash.com/photo-1517810095498-0f282469aba9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></figure>
+      <div class="mt-4">
+        <h1 class="font-semibold mb-2">Rahul Khanna</h1>
+        <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo maiores minima accusamus dolore totam inventore optio possimus hic tenetur.</p>
+      </div>
+    </div>
+    <div class="shadow-sm shadow-slate-400 rounded w-80 p-6">
+      <figure><img class="rounded-md" src="https://images.unsplash.com/photo-1554126807-6b10f6f6692a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></figure>
+      <div class="mt-4">
+        <h1 class="font-semibold mb-2">Rahul Khanna</h1>
+        <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo maiores minima accusamus dolore totam inventore optio possimus hic tenetur.</p>
+      </div>
+    </div>
+    <div class="shadow-sm shadow-slate-400 rounded w-80 p-6">
+      <figure><img class="rounded-md" src="https://images.unsplash.com/photo-1475870434835-a633fd526088?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></figure>
+      <div class="mt-4">
+        <h1 class="font-semibold mb-2">Rahul Khanna</h1>
+        <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo maiores minima accusamus dolore totam inventore optio possimus hic tenetur.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class=" container mx-auto mb-10 px-24 sm:px-12 lg:px-24">
+  <div class="grid grid-cols-4 gap-5 xs:grid-cols-1  sm:grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-4 items-center">
+    <div >
+      <div class="shadow-sm shadow-slate-400 rounded w-80 p-6">
+        <figure><img  class="rounded-md" src="https://images.unsplash.com/photo-1475870434835-a633fd526088?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></figure>
+        <div class="mt-4">
+          <h1 class="font-semibold mb-2">Rahul Khanna</h1>
+          <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo maiores minima accusamus dolore totam inventore optio possimus hic tenetur.</p>
+        </div>
+      </div>
+    </div>
+    <div >
+      <div class="shadow-sm shadow-slate-400 rounded w-80 p-6">
+        <figure><img class="rounded-md" src="https://images.unsplash.com/photo-1475870434835-a633fd526088?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></figure>
+        <div class="mt-4">
+          <h1 class="font-semibold mb-2">Rahul Khanna</h1>
+          <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo maiores minima accusamus dolore totam inventore optio possimus hic tenetur.</p>
+        </div>
+      </div>
+    </div>
+    <div >
+      <div class="shadow-sm shadow-slate-400 rounded w-80 p-6">
+        <figure><img class="rounded-md" src="https://images.unsplash.com/photo-1475870434835-a633fd526088?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></figure>
+        <div class="mt-4">
+          <h1 class="font-semibold mb-2">Rahul Khanna</h1>
+          <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo maiores minima accusamus dolore totam inventore optio possimus hic tenetur.</p>
+        </div>
+      </div>
+    </div>
+    <div >
+      <div class="shadow-sm shadow-slate-400 rounded w-80 p-6">
+        <figure><img class="rounded-md" src="https://images.unsplash.com/photo-1475870434835-a633fd526088?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></figure>
+        <div class="mt-4">
+          <h1 class="font-semibold mb-2">Rahul Khanna</h1>
+          <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo maiores minima accusamus dolore totam inventore optio possimus hic tenetur.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/bee4f2375d.js" crossorigin="anonymous"></script>
+</body>
+</html>
